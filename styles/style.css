@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+/* vietnamese */
+@font-face {
+    font-family: "Maven Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("C:\Users\quent\Downloads\7Au9p_AqnyWWAxW2Wk3GwmQIAFg.woff2") format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+* {
+    box-sizing: border-box; 
+}
+ 
+/* nav-bar*/
+.nav-bar {
+    background-color: white;
+    position: relative;
+    height: 80px;
+}
+
+#spotify-logo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    height: 50px;
+    width: auto;
+    margin: 10px 0px 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lists {
+    right: 10px;
+    top: 0px;
+    margin-left: 70%;
+    padding: 25px 0px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-style {
+    text-decoration: none;
+    color: #1A1A1A;
+
+}
+
+/*First container */
+
+.first-container-background {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+    height: auto;
+
+
+}
+
+.first-container > h1 {
+    color: #FFF;
+    font-family: "Maven Pro";
+    font-style: normal;
+    font-size: 3em;
+}
+
+.first-container > p {
+    color: #FFF;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.first-container {
+    padding: 400px 10px;
+    text-align: center;
+}
+
+/* */
+/*Central container */
+.central-container {
+    background-color: #FFF;
+}
+
+.central-container-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.central-container-title-texte {
+    font-weight: bold;
+    text-decoration: underline  #00B172;
+    padding: 20px;
+    font-size: 1.9em;
+}
+
+.icon-title {
+    font-weight: bold;
+    color:  #00B172;
+    font-family: "Maven Pro";
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.icon-description {
+    text-align: center;
+}
+
+.central-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-img {
+    height: 75px;
+    width: 75px;
+}
+
+
+
+/* */
+/*Footer*/
+.footer-container {
+    background-color: #00B172;
+    margin: 30px;
+    padding: 30px;
+}
+
+.paragraphs-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-spotify-white {
+    height: 75px;
+    width: 75px;
+}
+
+.icons-spotify-app {
+    max-height: 20%;
+    width: 20%;
+}
+
+
+.title-footer h3 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FFF;
+    font-family: "Maven Pro";
+}
+
+.orga-footer h4 {
+    font-weight: bold;
+}
+.paragraphs-footer-title {
+    color: #FFF;
+}
+
+.paragraphs-footer-texte {
+    color: #FFF;
+}
