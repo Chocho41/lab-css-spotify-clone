@@ -23,8 +23,10 @@ White: #FFF
 /* nav-bar*/
 .nav-bar {
     background-color: white;
-    position: relative;
+    position: fixed;
     height: 80px;
+    width: 100%;
+    top: 0;
 }
 
 #spotify-logo {
@@ -95,6 +97,7 @@ ul{
 /*Central container */
 .central-container {
     background-color: #FFF;
+    height: 33%;
 }
 
 .central-container-title {
